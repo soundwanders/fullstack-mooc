@@ -11,7 +11,7 @@ A series of React UIs demonstrating functions such as state management, event ha
 
 ### Part 2 - [Communicating with server](https://fullstackopen.com/en/part2)
 
-A series of web apps touching on React code structuring, styling and communicating with a backend api (REST)
+A series of web apps touching on React code structuring, styling and communicating with a backend API (REST)
 
 - [course-contents](https://github.com/soundwanders/fullstack-mooc/tree/main/part2/course-contents) - A refactored extension of the course information from part 1
 - [countries](https://github.com/soundwanders/fullstack-mooc/tree/main/part2/countries) - A React app that fetches & displays information from the https://restcountries.eu API
@@ -31,8 +31,8 @@ Part 4 is a RESTful backend API written with Node/Express that serves endpoints 
 
 ### Part 6 - [State management with Redux](https://fullstackopen.com/en/part6)
 
-- [unicafe-redux](https://github.com/soundwanders/fullstack-mooc/tree/main/part6/unicafe-redux) - rewrites the core of the unicafe exercise from part 1 using Redux state management
-- [redux-anecdotes](https://github.com/soundwanders/fullstack-mooc/tree/main/part6/redux-anecdotes) - rebuilds the anecdotes exercise from part 1 using Redux state management and adds REST operations with json-server and redux-thunk
+- [unicafe-redux](https://github.com/soundwanders/fullstack-mooc/tree/main/part6/unicafe-redux) - Rewrites the core of the unicafe exercise from part 1 using Redux state management
+- [redux-anecdotes](https://github.com/soundwanders/fullstack-mooc/tree/main/part6/redux-anecdotes) - Rebuilds the anecdotes exercise from part 1 using Redux state management and adds REST operations with json-server and redux-thunk
 
 ### Part 7 - [React router, custom hooks, styling app with CSS and webpack](https://fullstackopen.com/en/part7)
 
@@ -46,13 +46,13 @@ Part 4 is a RESTful backend API written with Node/Express that serves endpoints 
   - Styling improvements
 - [bloglist-backend](https://github.com/soundwanders/fullstack-mooc/tree/main//part7/bloglist-backend) - Extends the functionality and design of the solution from part 4
 - [ultimate-hooks](https://github.com/soundwanders/fullstack-mooc/tree/main/part7/ultimate-hooks) - is an exercise in writing a React custom hook implementation of an api resource fetcher
-- [country-hook](https://github.com/soundwanders/fullstack-mooc/tree/main/part7/country-hook) - a modification of the solution from part 2 using a custom hook to make an api request
-- [routed-anecdotes](https://github.com/soundwanders/fullstack-mooc/tree/main/part7/routed-anecdotes) - anecdote web app with url routing
+- [country-hook](https://github.com/soundwanders/fullstack-mooc/tree/main/part7/country-hook) - A modification of the solution from part 2 using a custom hook to make an api request
+- [routed-anecdotes](https://github.com/soundwanders/fullstack-mooc/tree/main/part7/routed-anecdotes) - Anecdote web app with url routing
 
 ### Part 8 - [GraphQL](https://fullstackopen.com/en/part8)
 
 - [library-frontend](https://github.com/soundwanders/fullstack-mooc/tree/main/part8/library-frontend) - A library catalogue web app powered by react, apollo-client and styled with bootstrap
-- [library-backend](https://github.com/soundwanders/fullstack-mooc/tree/main/part8/library-backend) - graphql library backend written with node and apollo-server
+- [library-backend](https://github.com/soundwanders/fullstack-mooc/tree/main/part8/library-backend) - Graphql library backend written with node and apollo-server
 
 ### Part 9 - [Typescript](https://fullstackopen.com/en/part9)
 
