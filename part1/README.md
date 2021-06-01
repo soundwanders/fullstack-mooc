@@ -1,6 +1,7 @@
 # Full Stack Open 2020
 
 ## Part 1 - [Introduction to React](https://fullstackopen.com/en/part1)
+<<<<<<< HEAD
 
 Each of the following folders contain the final solutions to their respective exercises
 
@@ -16,3 +17,5 @@ Each of the following folders contain the final solutions to their respective ex
 ### [anecdotes](https://github.com/jeremy-ebinum/full-stack-open-2020/tree/master/part1/anecdotes)
 
 - Exercises 1.12 - 1.14 — [Description](https://fullstackopen.com/en/part1/a_more_complex_state_debugging_react_apps#exercises-1-6-1-14)
+=======
+>>>>>>> a799fc51342e9bd04599648eeb14dbea8281eeb7
