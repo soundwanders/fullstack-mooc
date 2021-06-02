@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 
+// each component created in its own block
+// it is not good practice to create components inside another component
+
 const Heading = (props) => <h1>{props.text}</h1>;
 
 const Button = (props) => <button onClick = {props.onClick}>{props.text}</button>;
@@ -21,15 +24,9 @@ const Statistics = (props) => {
         <Heading text="Statistics" />
         <table>
             <tbody>
-                <Statistics name="good" value={props.good} />
-                <Statistics name="neutral" value={props.neutral} />
-                <Statistics name="bad" value={props.bad} />
-
-                {/*
-                <Statistic name="averageScore" value={props.averageScore} />
-                <Statistic name="percentPositive" value={props.percentPositive + "%"} /> 
-                */}
-                
+                <Statistic name="good" value={props.good} />
+                <Statistic name="neutral" value={props.neutral} />
+                <Statistic name="bad" value={props.bad} />
             </tbody>
         </table>
     </div>
@@ -69,8 +66,6 @@ const App = () => {
       neutral: neutral,
       bad: bad,
       total: total,
-      // averageScore: averageScore,
-      // percentPositive: percentPositive,
     };
 
     return (
