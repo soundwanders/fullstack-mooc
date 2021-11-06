@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
 
-// each component created in its own block
-// it is not good practice to create components inside another component
-
 const Heading = (props) => <h1>{props.text}</h1>;
 
 const Button = (props) => <button onClick = {props.onClick}>{props.text}</button>;
@@ -17,9 +14,15 @@ const Statistic = (props) => {
 };
 
 const Statistics = (props) => {
-  if (!props.hasFeedback) { return <p>No feedback has been recorded</p> }
+    if (!props.hasFeedback) { 
+        return <p>No feedback has been recorded</p>
+    }
 
-  return (
+  const totalFeedback = props.good + props.neutral + props.bad;
+  const average = (props.good - props.bad) / totalFeedback;
+  const positiveFeedback = props.good / totalFeedback * 100;
+
+    return (
     <div>
         <Heading text="Statistics" />
         <table>
@@ -27,10 +30,12 @@ const Statistics = (props) => {
                 <Statistic name="good" value={props.good} />
                 <Statistic name="neutral" value={props.neutral} />
                 <Statistic name="bad" value={props.bad} />
+                <Statistic name="average" value={average} />
+                <Statistic name="positiveFeedback" value={positiveFeedback} />
             </tbody>
         </table>
     </div>
-  )
+    )
 }
 
 const App = () => {
@@ -70,7 +75,7 @@ const App = () => {
 
     return (
         <div>
-            <Heading text = "Give Feedback" />
+            <Heading text = "Please Leave Your Feedback" />
             <Button onClick = {() => handleButtonClick("good")} text="Good" />
             <Button onClick = {() => handleButtonClick("neutral")} text="Neutral" />
             <Button onClick = {() => handleButtonClick("bad")} text="Bad" />
