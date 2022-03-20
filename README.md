@@ -1,4 +1,4 @@
-# [Full Stack Open 2020](https://fullstackopen.com/en/)
+# [Full Stack Open Helsinki](https://fullstackopen.com/en/)
 
 ## Part 0 - [Fundamentals of Web Apps](https://fullstackopen.com/en/part1/introduction_to_react)
 
